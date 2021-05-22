@@ -1,0 +1,221 @@
+
+
+@media screen and (max-width:1300px){
+    #front-sec{
+        /* height:50vh; */
+        padding:0 105px;
+        
+    }
+    #front-sec .right-side .box{
+        top:-100px;
+    }
+    #picture-sec .left-side p {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:991px){
+    #front-sec .left-side{
+       text-align:center;
+    }
+    #front-sec .left-side .div1{
+       margin:20px auto;
+    }
+    #front-sec .right-side .box{
+        position:relative;
+        top:none;
+        left:none;
+        right:none;
+        bottom:none;
+    }
+    #front-sec{
+        height:100vh;
+        padding:0 20px;
+        
+    }
+
+
+    #social-sec{
+        padding: 0 50px;
+    }
+    #social-sec .left-col h4{
+        margin-top:5px;
+    }
+    #social-sec .left-col p{
+        margin-top:0;
+    }
+
+    #sub-sec{
+        padding:50px 50px;
+    }
+    #picture-sec .left-side p {
+        text-align: justify;
+    }
+    #picture-sec{
+        padding:50px 50px;
+    }
+    #contact .form textarea{
+        padding:10px;
+    }
+    #customer .bottom-row .cards{
+        width: 100%;
+        padding: 0 0px;
+    }
+    #customer .bottom-row .cards .bottom-area h4{
+        font-size: 1.3rem;
+    }
+    #tab-sec ul {
+        display:flex;
+        text-align:center;
+    }
+    #tab-sec ul li button{
+        display:inline;
+        height:100px;
+        width:100px;
+    }
+}
+
+
+
+
+@media screen and (max-width:850px){
+    .darkHeader{
+        height:58px;
+    }
+    .darkHeader .logo h5{
+        font-size:30px;
+        line-height: 60px;
+    }
+    nav .logo h5{
+        transition:none    ;
+        -webkit-transition:none    ;
+        -moz-transition:none    ;
+        -ms-transition:none    ;
+        -o-transition:none    ;
+}
+    nav label{
+        float:right;
+        display:block;
+    }
+    nav label i{
+        color:#fff;
+        font-size:20px;
+        font: normal normal normal 25px/1 FontAwesome;
+        margin-top:8px;
+    }
+    #label2{
+        display:none;
+    }
+    nav{
+        padding:0;
+    }
+    nav .logo{
+        padding-left:50px;
+    }
+    nav label{
+        padding-right:50px;
+        margin-top: 8px;
+        font-size: 27px;
+    }
+    nav ul{
+        background:#2b2b2b;
+        width:100%;
+        text-align:center;
+        height:50vh;
+        margin-top:-200%;
+        transition:0.3s ease-in-out;
+    }
+    nav ul li{
+        display:block;
+        padding:0;
+    }
+
+   
+    
+    nav #chkid:checked ~ ul{
+        margin-top:0;
+        padding-top:30px;
+    }
+    #chkid:checked ~ #label1{
+        display:none;
+    }
+    #chkid:checked ~ #label2{
+        display:block;
+    }
+    
+}
+
+@media screen and (max-width:768px){
+
+    #social-sec .left-col h4{
+        text-align:center;
+    }
+    #social-sec .left-col p{
+        text-align:center;
+    }
+    #social-sec .right-col{
+        text-align:center;
+    }
+    #social-sec .right-col ul li {
+        padding:5px 5px;
+    }
+    
+    #sub-sec .left-side img{
+        width:100%;
+    }
+    #sub-sec .right-side h3{
+        margin-top:20px;
+    }
+    #sub-sec .right-side p{
+        text-align:justify;
+    }
+
+    #picture-sec .right-side img{
+        width:100%;
+    }
+    #sub-sec, #picture-sec,#awesome,#pricing,#stylish,#customer,#tab-sec{
+        padding:50px 10px;
+    }
+    #contact{
+        padding:50px 30px;
+    }
+    #pricing .card{
+        margin: 10px  auto;
+    }
+    #pricing .second-col .card , .third-col .card{
+        margin-top:15px;
+    }
+
+    
+
+}
+@media screen and (max-width:468px){
+    #front-sec .right-side .box {
+        top: 0;
+    }
+    #front-sec {
+        height: 130vh;
+    }
+    #social-sec .right-col ul li {
+        padding: 5px 2px;
+    }
+}
+@media screen and (max-width:400px){
+    #front-sec {
+        height: 150vh;
+    }
+    #tab-sec ul li button{
+        display:inline;
+        height:90px;
+        width:90px;
+    }
+}
+@media screen and (max-width:320px){
+    #front-sec {
+        height: 200vh;
+    }
+    .box {
+        top: -350px;
+    }
+}
+
